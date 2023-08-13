@@ -1,0 +1,32 @@
+body {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: #000511;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
