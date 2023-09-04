@@ -3,7 +3,7 @@
   place-content: space-between;
   place-items: center;
   background-color: #000511;
-  padding: 2rem 7.5rem;
+  padding: 2rem 4rem;
   font-size: 1.25rem;
 }
 .header h1 {
@@ -25,15 +25,17 @@
   .header {
     flex-direction: column;
     gap: 2rem;
+    padding: 2rem;
   }
   .header h1 {
     text-align: center;
+    font-size: 2.25rem;
   }
   .header nav .nav-menu {
     place-content: center;
   }
   .header nav .nav-menu a {
-    background-color: #f0f0f0;
+    background-color: #e0e0e0;
     color: #000511;
     border-radius: 4px;
   }

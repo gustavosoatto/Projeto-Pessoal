@@ -30,3 +30,11 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.subtitulo {
+  text-transform: uppercase;
+  font-size: 8rem;
+  word-break: break-all;
+  max-width: 4.5ch;
+  place-self: center start;
+}

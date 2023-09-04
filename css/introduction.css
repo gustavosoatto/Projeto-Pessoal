@@ -1,0 +1,78 @@
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #e0e0e0;
+  margin: 5rem 0rem;
+  padding: 7.5rem 4rem;
+  gap: 7.5rem;
+  place-items: center start;
+}
+.introduction-preview {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2.5rem;
+  place-self: center;
+}
+.introduction h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  position: relative;
+}
+.introduction h1::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../img/Deco-0°.svg") no-repeat center;
+  position: absolute;
+  left: 590px;
+  bottom: -30px;
+}
+
+@media (max-width: 1100px) {
+  .introduction h1 {
+    font-size: 3.75rem;
+  }
+  .introduction h1::after {
+    left: 440px;
+    bottom: -50px;
+  }
+}
+@media (max-width: 1000px) {
+  .introduction {
+    grid-template-columns: 1fr;
+    gap: 3.75rem;
+  }
+  .introduction-preview {
+    place-self: center;
+    grid-row: 2;
+    width: 200px;
+    gap: 2rem;
+  }
+  .introduction h1 {
+    place-self: center;
+    font-size: 3rem;
+  }
+  .introduction h1::after {
+    left: 440px;
+    bottom: 0px;
+  }
+}
+@media (max-width: 700px) {
+  .introduction {
+    padding: 7.5rem 2rem;
+    margin: 2.5rem 0rem;
+    padding: 3.75rem 2rem;
+    gap: 2rem;
+  }
+  .introduction h1 {
+    font-size: 2.25rem;
+  }
+  .introduction h1::after {
+    display: none;
+  }
+  .introduction-preview {
+    gap: 1rem;
+    width: 160px;
+  }
+}
