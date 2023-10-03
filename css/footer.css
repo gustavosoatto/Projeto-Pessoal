@@ -1,0 +1,15 @@
+footer {
+  background-color: #000000;
+  padding: 1.875rem 4rem;
+}
+footer h3 {
+  color: #cccccc;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+@media (max-width: 700px) {
+  footer h3 {
+    font-size: 0.875rem;
+  }
+}
