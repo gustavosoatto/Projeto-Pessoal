@@ -1,0 +1,81 @@
+.contato {
+  background-color: #080808;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 7.5rem 4rem;
+  gap: 7.5rem;
+}
+.contato .subtitulo {
+  color: #1a1a1a;
+}
+.contato .content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 34px;
+  margin: 0;
+  align-items: center;
+}
+.contato .content p {
+  text-align: right;
+}
+.contato .content ul {
+  position: relative;
+}
+.contato .content ul::after {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 141px;
+  position: absolute;
+  background: url("../img/Deco-Gradient-Footer.svg");
+  left: -19px;
+  top: 4px;
+}
+.contato .content a {
+  color: #cccccc;
+  text-align: left;
+  padding: 7.5px 0px;
+  display: block;
+}
+
+@media (max-width: 1100px) {
+  .contato {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .contato .subtitulo {
+    max-width: initial;
+    color: #cccccc;
+    font-size: 3.75rem;
+  }
+}
+@media (max-width: 1000px) {
+  .contato .subtitulo {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 700px) {
+  .contato .subtitulo {
+    font-size: 2.25rem;
+  }
+  .contato .content a {
+    font-size: 1rem;
+  }
+  .contato .content p {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .contato .content ul::after {
+    content: "";
+    display: block;
+    width: 141px;
+    height: 4px;
+    position: absolute;
+    background: url("../img/Deco-Gradient-Footer.svg");
+    left: 0px;
+    top: -19px;
+  }
+  .contato .content {
+    grid-template-columns: 1fr;
+  }
+}
