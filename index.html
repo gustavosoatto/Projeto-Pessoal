@@ -10,24 +10,28 @@
 
 <body>
   <header class="header">
-    <h1>Gustavo Soatto</h1>
-    <nav>
-      <ul class="nav-menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+    <div class="header-container">
+      <h1>Gustavo Soatto</h1>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main class="introduction">
-    <div class="introduction-preview">
-      <img src="./img/Github.svg" alt="github link" />
-      <img src="./img/Formação.svg" alt="formação scrolldown" />
-      <img src="./img/Experiência.svg" alt="experiência scrolldown" />
-      <img src="./img/icon-3point.svg" alt="ícone de 3 pontos" />
+    <div class="introduction-container">
+      <div class="introduction-preview">
+        <img src="./img/Github.svg" alt="github link" />
+        <img src="./img/Formação.svg" alt="formação scrolldown" />
+        <img src="./img/Experiência.svg" alt="experiência scrolldown" />
+        <img src="./img/icon-3point.svg" alt="ícone de 3 pontos" />
+      </div>
+      <h1>Desenvolvedor<br />Front End</h1>
     </div>
-    <h1>Desenvolvedor<br />Front End</h1>
   </main>
 
   <article class="experiencia" id="experiencia" aria-label="Experiência">
@@ -71,61 +75,67 @@
   </article>
 
   <article class="formacao" id="formacao">
-    <h2 class="subtitulo">Formação</h2>
-    <div class="content">
-      <p class="content-text">Sou aluno de <strong>Ciências da Computação</strong>.<br>Além disso faço cursos intensivos em paralelo sempre aberto a novas tecnologias.</p>
+    <div class="formacao-container">
+      <h2 class="subtitulo">Formação</h2>
+      <div class="content">
+        <p class="content-text">Sou aluno de <strong>Ciências da Computação</strong>.<br>Além disso faço cursos intensivos em paralelo sempre aberto a novas tecnologias.</p>
 
-      <section class="card">
-        <div>
-          <p class="card-text">Bacharelado</p>
-          <p class="card-text">2021 - 2025</p>
-        </div>
-        <h2 class="card-title">Ciências da Computação</h2>
-        <p class="card-text">Centro Universitário Barão de Mauá</p>
-      </section>
-      <section class="course">
-        <h2 class="course-tittle">CURSOS INTENSIVOS</h2>
-        <div>
-          <section class="card">
-            <h2 class="card-title">HTML e CSS para Iniciantes</h2>
-            <div>
-              <p class="card-text">Origamid</p>
-              <p class="card-text">46h</p>
-            </div>
-          </section>
+        <section class="card">
+          <div>
+            <p class="card-text">Bacharelado</p>
+            <p class="card-text">2021 - 2025</p>
+          </div>
+          <h2 class="card-title">Ciências da Computação</h2>
+          <p class="card-text">Centro Universitário Barão de Mauá</p>
+        </section>
+        <section class="course">
+          <h2 class="course-tittle">CURSOS INTENSIVOS</h2>
+          <div>
+            <section class="card">
+              <h2 class="card-title">HTML e CSS para Iniciantes</h2>
+              <div>
+                <p class="card-text">Origamid</p>
+                <p class="card-text">46h</p>
+              </div>
+            </section>
 
-          <section class="card">
-            <h2 class="card-title">UI Design para Iniciantes</h2>
-            <div>
-              <p class="card-text">Origamid</p>
-              <p class="card-text">34h</p>
-            </div>
-          </section>
-        </div>
-      </section>
+            <section class="card">
+              <h2 class="card-title">UI Design para Iniciantes</h2>
+              <div>
+                <p class="card-text">Origamid</p>
+                <p class="card-text">34h</p>
+              </div>
+            </section>
+          </div>
+        </section>
+      </div>
     </div>
   </article>
 
   <article class="contato" id="contato">
-    <h2 class="subtitulo">Contato</h2>
-    <section class="content">
-      <p>Localizado em<br><strong>Ribeirão Preto</strong>,<br>São Paulo</p>
-      <ul>
-        <li>
-          <a href="mailto:gustavo.soatto@hotmail.com" title="gustavo.soatto@hotmail.com">gustavo.soatto@hotmail.com</a>
-        </li>
-        <li>
-          <a href="https://linkedin.com/in/gustavosoatto">linkedin.com/in/gustavosoatto</a>
-        </li>
-        <li>
-          <a href="https://github.com/gustavosoatto">github.com/gustavosoatto</a>
-        </li>
-      </ul>
-    </section>
+    <div class="contato-container">
+      <h2 class="subtitulo">Contato</h2>
+      <section class="content">
+        <p>Localizado em<br><strong>Ribeirão Preto</strong>,<br>São Paulo</p>
+        <ul>
+          <li>
+            <a href="mailto:gustavo.soatto@hotmail.com" title="gustavo.soatto@hotmail.com">gustavo.soatto@hotmail.com</a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/gustavosoatto">linkedin.com/in/gustavosoatto</a>
+          </li>
+          <li>
+            <a href="https://github.com/gustavosoatto">github.com/gustavosoatto</a>
+          </li>
+        </ul>
+      </section>
+    </div>
   </article>
 
   <footer>
-    <h3>Gustavo Soatto. Alguns direitos reservados.</h3>
+    <div class="copy-container">
+      <h3>Gustavo Soatto. Alguns direitos reservados.</h3>
+    </div>
   </footer>
 </body>
 

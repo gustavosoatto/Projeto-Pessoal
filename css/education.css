@@ -1,10 +1,14 @@
 .formacao {
   background-color: #1a1a1a;
+}
+.formacao-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   padding: 7.5rem 4rem;
   gap: 7.5rem;
   position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .formacao .subtitulo {
   color: #080808;
@@ -90,7 +94,7 @@
 }
 
 @media (max-width: 1100px) {
-  .formacao {
+  .formacao-container {
     grid-template-columns: 1fr;
     padding: 5rem 2rem;
     gap: 2rem;

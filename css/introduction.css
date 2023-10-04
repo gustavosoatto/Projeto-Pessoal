@@ -1,8 +1,11 @@
 .introduction {
+  background-color: #e0e0e0;
+}
+.introduction-container {
+  max-width: 1440px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  background-color: #e0e0e0;
-  margin: 5rem 0rem;
+  margin: 5rem auto 0rem auto;
   padding: 7.5rem 4rem;
   gap: 7.5rem;
   place-items: center start;
@@ -39,7 +42,7 @@
   }
 }
 @media (max-width: 1000px) {
-  .introduction {
+  .introduction-container {
     grid-template-columns: 1fr;
     gap: 3.75rem;
   }
@@ -59,7 +62,7 @@
   }
 }
 @media (max-width: 700px) {
-  .introduction {
+  .introduction-container {
     padding: 7.5rem 2rem;
     margin: 2.5rem 0rem;
     padding: 3.75rem 2rem;

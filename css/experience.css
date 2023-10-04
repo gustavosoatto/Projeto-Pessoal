@@ -1,9 +1,10 @@
 .experiencia {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  padding: 0 4rem;
-  margin-bottom: 5rem;
+  padding: 5rem 4rem;
   gap: 7.5rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 /* .subtitulo {} -> "./globar" */
 .experiencia .subtitulo {

@@ -1,6 +1,10 @@
 footer {
   background-color: #000000;
+}
+.copy-container {
+  max-width: 1440px;
   padding: 1.875rem 4rem;
+  margin: 0 auto;
 }
 footer h3 {
   color: #cccccc;
@@ -8,7 +12,10 @@ footer h3 {
   font-weight: normal;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1100px) {
+  .copy-container {
+    padding: 1.875rem 2rem;
+  }
   footer h3 {
     font-size: 0.875rem;
   }

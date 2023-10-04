@@ -1,9 +1,13 @@
 .contato {
   background-color: #080808;
+}
+.contato-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   padding: 7.5rem 4rem;
   gap: 7.5rem;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .contato .subtitulo {
   color: #1a1a1a;
@@ -39,9 +43,10 @@
 }
 
 @media (max-width: 1100px) {
-  .contato {
+  .contato-container {
     grid-template-columns: 1fr;
     gap: 2rem;
+    padding: 7.5rem 2rem;
   }
   .contato .subtitulo {
     max-width: initial;
@@ -66,12 +71,8 @@
     text-align: left;
   }
   .contato .content ul::after {
-    content: "";
-    display: block;
     width: 141px;
     height: 4px;
-    position: absolute;
-    background: url("../img/Deco-Gradient-Footer.svg");
     left: 0px;
     top: -19px;
   }
